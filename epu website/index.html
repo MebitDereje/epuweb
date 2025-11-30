@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ethiopian Police University - Official Website">
+    <title>Ethiopian Police University - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="images/epu-logo.png" alt="EPU Logo" class="logo">
+                <span class="brand-text">Ethiopian Police University</span>
+            </div>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About EPU</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="campus-life.html">Campus Life</a></li>
+                <li><a href="news.html">News & Events</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-slider" id="heroSlider">
+            <div class="slide active">
+                <div class="slide-content">
+                    <h1>Welcome to Ethiopian Police University</h1>
+                    <p>Building Excellence in Law Enforcement Education</p>
+                    <a href="admissions.html" class="btn btn-primary">Apply Now</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Academic Excellence</h1>
+                    <p>Comprehensive Programs in Police Science and Criminal Justice</p>
+                    <a href="academics.html" class="btn btn-primary">Explore Programs</a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h1>Shape Your Future</h1>
+                    <p>Join Ethiopia's Premier Law Enforcement Institution</p>
+                    <a href="about.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider-controls">
+            <button class="slider-btn prev" id="prevSlide" aria-label="Previous slide">&lt;</button>
+            <button class="slider-btn next" id="nextSlide" aria-label="Next slide">&gt;</button>
+        </div>
+        <div class="slider-dots" id="sliderDots"></div>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="quick-links">
+        <div class="container">
+            <div class="quick-link-card">
+                <div class="icon">📚</div>
+                <h3>Academics</h3>
+                <p>Explore our programs</p>
+                <a href="academics.html">Learn More</a>
+            </div>
+            <div class="quick-link-card">
+                <div class="icon">📝</div>
+                <h3>Admissions</h3>
+                <p>Start your application</p>
+                <a href="admissions.html">Apply Now</a>
+            </div>
+            <div class="quick-link-card">
+                <div class="icon">🎓</div>
+                <h3>Campus Life</h3>
+                <p>Student experience</p>
+                <a href="campus-life.html">Discover</a>
+            </div>
+            <div class="quick-link-card">
+                <div class="icon">📰</div>
+                <h3>News</h3>
+                <p>Latest updates</p>
+                <a href="news.html">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest News -->
+    <section class="latest-news">
+        <div class="container">
+            <h2>Latest News & Announcements</h2>
+            <div class="news-grid" id="newsGrid">
+                <!-- News items will be loaded dynamically -->
+            </div>
+            <div class="text-center">
+                <a href="news.html" class="btn btn-secondary">View All News</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership & Management -->
+    <section class="leadership-home">
+        <div class="container">
+            <h2>Leadership & Management</h2>
+            <p class="section-intro">Meet the dedicated leaders guiding Ethiopian Police University towards excellence</p>
+            <div class="leadership-grid">
+                <div class="leader-card">
+                    <div class="leader-image">
+                        <img src="images/president.jpg" alt="University President" onerror="this.src='images/placeholder.jpg'">
+                    </div>
+                    <h3>Dr. [President Name]</h3>
+                    <p class="title">University President</p>
+                    <p class="bio">Leading the institution with a vision for excellence in law enforcement education and research. With over 25 years of experience in police administration and academic leadership.</p>
+                </div>
+                <div class="leader-card">
+                    <div class="leader-image">
+                        <img src="images/vp-academic.jpg" alt="VP Academic Affairs" onerror="this.src='images/placeholder.jpg'">
+                    </div>
+                    <h3>Dr. [VP Academic Name]</h3>
+                    <p class="title">Vice President, Academic Affairs</p>
+                    <p class="bio">Overseeing all academic programs, curriculum development, and ensuring the highest standards of educational quality across all departments.</p>
+                </div>
+                <div class="leader-card">
+                    <div class="leader-image">
+                        <img src="images/vp-admin.jpg" alt="VP Administration" onerror="this.src='images/placeholder.jpg'">
+                    </div>
+                    <h3>[VP Admin Name]</h3>
+                    <p class="title">Vice President, Administration</p>
+                    <p class="bio">Managing university operations, facilities, and student services to create an optimal learning environment for all students.</p>
+                </div>
+                <div class="leader-card">
+                    <div class="leader-image">
+                        <img src="images/dean.jpg" alt="Dean of Students" onerror="this.src='images/placeholder.jpg'">
+                    </div>
+                    <h3>[Dean Name]</h3>
+                    <p class="title">Dean of Students</p>
+                    <p class="bio">Dedicated to student welfare, campus life initiatives, and ensuring a supportive environment for academic and personal growth.</p>
+                </div>
+            </div>
+            <div class="text-center" style="margin-top: 2rem;">
+                <a href="about.html" class="btn btn-secondary">View Full Leadership Team</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Preview -->
+    <section class="about-preview">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Ethiopian Police University</h2>
+                <p>The Ethiopian Police University stands as a beacon of excellence in law enforcement education, dedicated to developing highly skilled, ethical, and professional police officers who serve with integrity and commitment to justice.</p>
+                <p>Our institution combines rigorous academic training with practical field experience, preparing graduates to meet the evolving challenges of modern policing in Ethiopia.</p>
+                <a href="about.html" class="btn btn-secondary">Learn More About EPU</a>
+            </div>
+            <div class="about-image">
+                <img src="images/campus.jpg" alt="EPU Campus" onerror="this.src='images/placeholder.jpg'">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ethiopian Police University</h3>
+                    <p>Excellence in Law Enforcement Education</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+                        <a href="#" aria-label="Twitter"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg></a>
+                        <a href="#" aria-label="YouTube"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Student Portal</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li><a href="#">Career Services</a></li>
+                        <li><a href="#">Alumni</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📍 Addis Ababa, Ethiopia</p>
+                    <p>📞 +251-11-XXX-XXXX</p>
+                    <p>✉️ info@epu.edu.et</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ethiopian Police University. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
